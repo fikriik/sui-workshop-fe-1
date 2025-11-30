@@ -8,7 +8,7 @@ import ListMyEscrow from "@/components/ListMyEscrow";
 
 export default function page() {
   return (
-    <Card>
+   <Card>
       <CardHeader>
         <CardTitle className="text-4xl font-bold">Workshop SUI - Frontend</CardTitle>
       </CardHeader>
