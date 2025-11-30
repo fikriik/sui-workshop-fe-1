@@ -1,5 +1,10 @@
 "use client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { WalletConnection } from "@/components/WalletConnection";
+import Balance from "@/components/Balance";
+import Faucet from "@/components/transaction/Faucet";
+import Escrow from "@/components/transaction/Escrow";
+import ListMyEscrow from "@/components/ListMyEscrow";
 
 export default function page() {
   return (
@@ -9,6 +14,11 @@ export default function page() {
       </CardHeader>
       <CardContent className="flex flex-col gap-2">
         <span>Start Here!</span>
+        <WalletConnection />
+        <Balance/>
+        <Faucet/> 
+        <Escrow />
+        <ListMyEscrow/>
       </CardContent>
     </Card>
   )
